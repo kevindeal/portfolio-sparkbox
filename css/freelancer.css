@@ -1,11 +1,11 @@
 /*!
  * Start Bootstrap - Freelancer v5.0.0 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2022 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Lato';
 }
 
 h1,
@@ -14,8 +14,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight:700;
-  /* font-family: 'Montserrat'; */
+  font-weight: 700;
+  font-family: 'Montserrat';
 }
 
 hr.star-light,
@@ -175,22 +175,16 @@ section h2 {
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
-  text-align:left;
-  box-sizing:border-box;
-  border-top:10px solid #50aea2;
 }
 
 header.masthead h1 {
-  font-size: 32px;
-  line-height: 12px;
-  padding-bottom:5px;
-  color:#a12630;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
 header.masthead h2 {
-  font-size: 1.75em;
-  /* font-family: 'Lato'; */
-  color:#0f2435;
+  font-size: 1.3rem;
+  font-family: 'Lato';
 }
 
 @media (min-width: 992px) {
@@ -203,7 +197,7 @@ header.masthead h2 {
     line-height: 4rem;
   }
   header.masthead h2 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 }
 
@@ -387,75 +381,4 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #1a252f;
   border-color: #1a252f;
-}
-
-/*kd*/
-.bg-primary{
-  background-color:white!important;
-}
-
-.text-secondary{
-  color:#0f2435 !important;
-}
-
-section h2{
-  font-size:24px;
-  padding-bottom:20px;
-}
-
-/* .navbar{
-  display:none;
-} */
-
-.font-weight-light{
-  font-weight:bolder !important;
-}
-
-.footer{
-  background-color:#a12630;
-}
-
-.footer a{
- color:	#7bacdd;
-}
-
-header img{
-  
-  /* border-radius:30px; */
-  
-}
-@media (min-width: 768px) {
-
-  header img{
-    width:700px;
-    /* border-radius:50px; */
-   
-  }  
-
-}
-.portfolio .portfolio-item .portfolio-item-caption{
-  background-color:#ffe5e4;
-  
-}
-.img-border{
-  border:solid 1px grey;
-}
-
-.tag-items{
-  list-style: none;
-  text-align:center;
-  margin-top:20px;
-  margin-left:-40px;
-}
-
-.tag-items li{
-  
-  margin-right:35px;
-  display:inline-block;
-  color:grey;
-}
-
-.tag-items li:first-child{
-  
-  display:inline-block;
 }
