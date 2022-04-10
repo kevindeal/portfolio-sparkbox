@@ -7,7 +7,26 @@ header.masthead {
   }
   h2 {
     font-size: 1.3rem;
+    font-weight: 300;
     @include body-font;
+    @media (min-width: 992px) {
+      width: 50vw;
+    }
+  }
+}
+.hero-background{
+  display: none;
+  @media (min-width: 50rem) {
+    display: block;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 100;
+    top: 40px;
+    right: 15%;
+    height: 25.5vw;
+    width: 25.5vw;
+    max-height: 30rem;
+    max-width: 30rem;
   }
 }
 @media (min-width: 992px) {
@@ -21,6 +40,5 @@ header.masthead {
     h2 {
       font-size: 1.75em;
     }
-
   }
 }
