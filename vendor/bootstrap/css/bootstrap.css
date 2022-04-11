@@ -16,7 +16,7 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
-  --gray: #6c757d;
+  --gray: #767676;
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #6c757d;
@@ -5113,6 +5113,11 @@ input[type="button"].btn-block {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
+}
+
+.list-group-horizontal {
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .list-group-item-action {
