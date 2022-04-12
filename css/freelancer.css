@@ -389,12 +389,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #0076d0;
-  color: #fff;
+  background-color: #fff;
+  color: #0a0a0a;
 }
 
 .copyright {
-  background-color: #00599d;
+  background-color: #e6e6e6;
 }
 
 a {
