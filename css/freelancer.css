@@ -430,7 +430,7 @@ a:focus, a:hover, a:active {
   border-color: #0a0a0a;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover, .btn-primary:focus {
   background-color: black;
   border-color: black;
 }
