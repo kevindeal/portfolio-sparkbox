@@ -31,6 +31,14 @@
     padding: 0.8rem;
   }
 }
+#mainNav.navbar-shrink {
+  background-color: $black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  .navbar-brand {
+    font-size: 1;
+  }
+}
 @media(min-width:992px) {
   #mainNav {
     padding-top: 1.5rem;

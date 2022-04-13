@@ -141,6 +141,16 @@ section h2 {
   padding: 0.8rem;
 }
 
+#mainNav.navbar-shrink {
+  background-color: #0a0a0a;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+  font-size: 1;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -249,6 +259,30 @@ header.masthead h2 {
   color: #767676;
 }
 
+.portfolio .portfolio-item .title {
+  background-size: calc(200% + 1px);
+  background-position-x: 0%;
+  background-position: right bottom;
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(50%, transparent), color-stop(50%, rgba(75, 230, 253, 0.5)));
+  background-image: linear-gradient(to left, transparent 50%, rgba(75, 230, 253, 0.5) 50%);
+  background-clip: content-box;
+  -webkit-transition: background-position-x 250ms ease-in-out;
+  transition: background-position-x 250ms ease-in-out;
+}
+
+.portfolio .portfolio-item:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.portfolio .portfolio-item:hover .title {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  background-position-x: 100%;
+  background-position: left bottom;
+  opacity: 1;
+}
+
 .portfolio .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -311,6 +345,13 @@ header.masthead h2 {
 .img-overlay {
   max-height: 528px;
   overflow: hidden;
+}
+
+.img-overlay img {
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.61, 1, 0.88, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.61, 1, 0.88, 1);
+  transition: transform 250ms cubic-bezier(0.61, 1, 0.88, 1);
+  transition: transform 250ms cubic-bezier(0.61, 1, 0.88, 1), -webkit-transform 250ms cubic-bezier(0.61, 1, 0.88, 1);
 }
 
 .tag-items {
@@ -430,7 +471,7 @@ a:focus, a:hover, a:active {
   border-color: #0a0a0a;
 }
 
-.btn-primary:hover, .btn-primary:focus{
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: black;
   border-color: black;
 }
